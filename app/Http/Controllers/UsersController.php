@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Users;
 use Illuminate\Http\Request;
 
-class UserController extends Controller
+class UsersController extends Controller
 {
     public function index(Request $request)
     {
